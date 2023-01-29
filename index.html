@@ -1,0 +1,565 @@
+<!DOCTYPE html><html lang="en"><head>
+    <title>Real Boost</title>
+        <meta prefix="og: http://ogp.me/ns#" /> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Realboost.me" property="og:title">
+        <meta property="og:site_name" content="realboost.me">
+        <meta content="https://realboost.me" property="og:url">
+        <meta property="og:image" content="https://imgur.com/a/oIgeXu7">
+        <meta name="og:image:width" content="250">
+        <meta name="og:image:height" content="250">
+        <meta content="CSGO & Social Boosting" property="og:description">
+        <meta content="#14bcff" data-react-helmet="true" name="theme-color">
+        <link rel="stylesheet" href="https://realboost.me/css/style_1.css">
+        <meta name="twitter:card" content="summary_large_image">
+    
+        <!--AOS-->
+        <link href="https://realboost.me/css/aos.css" rel="stylesheet">
+        
+        <!--FAVICON-->
+        <link rel="icon" type="image/x-icon" href="images/icon.png">
+    
+        <link href="https://realboost.me/css/boxicons.min.css" rel="stylesheet">
+    
+        <!--ICON-->
+        <link href="https://realboost.me/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+        
+        <script src="https://realboost.me/js/embed.js"></script>
+        <link href="https://realboost.me/css/embed.css" rel="stylesheet">
+    
+        <script src="https://realboost.me/js/script.js" type="module"></script>
+        <link href="https://realboost.me/css/style.css" rel="stylesheet">
+    
+    
+    </head>
+    <body>
+    
+        
+    <!--NAVBAR SECTION-->
+    
+         <header>
+            <div class="limiter">
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="logo.png" alt> 
+                    </div>
+    
+                    <ul class="navlinks" id="links">
+                        <li class="navitems"><a href="#home" class="itemlinks">Home</a></li>
+                        <li class="navitems"><a href="#pricing" class="itemlinks">Pricing</a></li>
+                        <li class="navitems"><a href="#faqs" class="itemlinks">FAQs</a></li>
+                        <li class="navitems discord">      
+                            <a href="https://realboost.me/discord">
+                                <div class="discord-button">
+                                    <div class="button-disc">
+                                        <img src="fonts/discord-fast.svg" class="discord-icon">
+                                        <h3>Discord</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <div id="burger">
+                        <div class="burgerlines"></div>
+                        <div class="burgerlines"></div>
+                        <div class="burgerlines"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    
+      
+        <script src="js/aos.js"></script>
+    
+        <script src="https://realboost.me/js/jquery-3.6.0.slim.js" crossorigin="anonymous"></script>
+        
+        <script>
+            const burger = document.getElementById('burger');
+            const links = document.getElementById('links');
+    
+            burger.addEventListener('click', () => {
+                links.classList.toggle('active');
+            })
+    
+            $("#links").click(() => {
+                links.classList.remove('active');
+            })
+        </script>
+    
+        <script src="https://realboost.me/js/jquery-3.6.0.js"></script>
+    
+        <script>
+            $(window).scroll(function(){
+                if($(window).scrollTop()){
+                    $("header").addClass("black");
+                }
+                else{
+                    $("header").removeClass("black");
+                }
+            });
+        </script>
+    
+    
+    
+    <!--HOME-->
+    
+        <section class="home" id="home">
+            <div class="home-container">
+    
+                <div class="left-part" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>It's a cheat service providing company
+                    <p>we make cheats for FREE FIRE Game</p>
+                    
+                    <div class="buttons">
+                        <a href="#">
+                            <a href="#pricing" class="itemlinks"> <button type="button" class="button1">Our Deals</button>
+                            <a href="../main/index.html" class="itemlinks"> <button type="button" class="button1">Steam Boost</button>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="right-part" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="logo.png" alt>
+                </div>
+                
+            </div>
+        </section>
+    
+    <!--PRICING-->
+    <br>
+    <br>
+    <br>
+    <div class="sectionFourWrapper" id="pricing" data-aos="fade-up">
+        <br>
+        <section class="sectionFour">
+            <div class="title">Our Pricing</div>
+            <div class="sub-title">We offer affordable solutions.</div>
+            <div class="ctaBtns">
+                <button class="sBtnOne filterBtns" data-target="#nonprime">Non Prime Accounts</button>
+                <button class="sBtnOne filterBtns" data-target="#csgoprime">CS:GO Prime</button>
+                <button class="sBtnOne filterBtns" data-target="#mediumtier">Mid Accounts</button>
+                <button class="sBtnOne filterBtns" data-target="#hightier">High Tier Accounts</button>
+                <button class="sBtnOne filterBtns" data-target="#marketplace">Marketplace</button>
+
+    
+            </div>
+
+            <!-- STARTING GROUP -->
+            <div class="row groups" id="nonprime">
+
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">5y / 10y + Genuine Alyx</div>
+                    <div class="pTitleOne">Non Prime</div>
+                    <h1 class="price">€29<span>.99</span></h1>
+                    <table>
+                        <tbody><tr>
+                 
+                            <td class="tableSecond topCol">Steam Level 10</td>
+                        </tr>
+                        <tr>
+                     
+                            <td class="tableSecond">Never Played (0 hours)</td>
+                        </tr>
+                        <tr>
+                 
+                            <td class="tableSecond">Comes with OG Email</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+               <!-- <a href="conturi/index-2.html"><input type="button"  class="buyBtn" value="More Details" />
+                 </a>-->  
+            </div>
+                <!-- ENDING PRODUCT -->                 
+
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">5y & 10y Veteran coins</div>
+                    <div class="pTitleOne">Non Prime</div>
+                    <h1 class="price">€14<span>.99</span></h1>
+                    <table>
+                        <tbody><tr>
+                     
+                            <td class="tableSecond topCol">Steam Level 10</td>
+                        </tr>
+                        <tr>
+                            
+                            <td class="tableSecond">Never Played (0 hours)</td>
+                        </tr>
+                        <tr>
+                          
+                            <td class="tableSecond">Comes with OG Email</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+               <!-- <a href="conturi/index-2.html"><input type="button"  class="buyBtn" value="More Details" />
+                 </a>-->  
+            </div>
+                <!-- ENDING PRODUCT -->                
+    
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">Genuine Alyx Pin</div>
+                    <div class="pTitleOne">Non Prime</div>
+                    <h1 class="price">€19<span>.99</span></h1>
+                    <table>
+                        <tbody><tr>
+                     
+                            <td class="tableSecond topCol">Steam Level 1</td>
+                        </tr>
+                        <tr>
+                    
+                            <td class="tableSecond">Never Played (0 hours)</td>
+                        </tr>
+                        <tr>
+                         
+                            <td class="tableSecond">Comes with OG Email</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+               <!-- <a href="conturi/index-3.html"><input type="button"  class="buyBtn" value="Buy" />
+                 </a--> 
+            </div>
+                <!-- ENDING PRODUCT -->                   
+
+            </div>
+            <!-- ENDING GROUP  -->   
+            
+
+            <!-- STARTING GROUP -->
+            <div class="row groups" id="csgoprime">
+
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">Unranked Prime</div>
+                    <div class="pTitleOne">Prime</div>
+                    <h1 class="price">€11<span>.99</span></h1>
+                    <table>
+                        <tbody><tr>
+                         
+                            <td class="tableSecond topCol">Random Hours / Level</td>
+                        </tr>
+                        <tr>
+                            
+                            <td class="tableSecond">Random Wins</td>
+                        </tr>
+                        <tr>
+                            
+                            <td class="tableSecond">Full Access</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+                <!--<a href="conturi/index-2.html"><input type="button"  class="buyBtn" value="More Details" />
+                 </a>-->  
+            </div>
+                <!-- ENDING PRODUCT -->                
+    
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">Ranked Prime</div>
+                    <div class="pTitleOne">Prime</div>
+                    <h1 class="price">€13<span>.99</span></h1>
+                    <table>
+                        <tbody><tr>
+                         
+                            <td class="tableSecond topCol">Random Hours / Level</td>
+                        </tr>
+                        <tr>
+                      
+                            <td class="tableSecond">minimum 10 Wins</td>
+                        </tr>
+                        <tr>
+                           
+                            <td class="tableSecond">Full Access</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+                <!--<a href="conturi/index-3.html"><input type="button"  class="buyBtn" value="More Details" />
+                 </a>-->  
+            </div>
+                <!-- ENDING PRODUCT -->                   
+
+            </div>
+            <!-- ENDING GROUP  --> 
+
+            <!-- STARTING GROUP MEDIUM-TIER -->
+            <div class="row groups" id="mediumtier">
+
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">4 Medals</div>
+                    <div class="pTitleOne">Prime</div>
+                    <h1 class="price">€39<span>.99</span></h1>
+                    <table>
+                        <tbody><tr>
+                        
+                            <td class="tableSecond topCol">126 Hours in CS:GO</td>
+                        </tr>
+                        <tr>
+                           
+                            <td class="tableSecond">58 Wins</td>
+                        </tr>
+                        <tr>
+                   
+                            <td class="tableSecond">Full Access</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+                <a href="conturi/index-8.html"><input type="button"  class="buyBtn" value="More Details" />
+                 </a>
+            </div>
+                <!-- ENDING PRODUCT -->                
+    
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">6 Medals</div>
+                    <div class="pTitleOne">Prime</div>
+                    <h1 class="price">€59<span>.99</span></h1>
+                    <table>
+                        <tbody><tr>
+                       
+                            <td class="tableSecond topCol">831 Hours in CS:GO</td>
+                        </tr>
+                        <tr>
+                           
+                            <td class="tableSecond">223 Wins (MG2)</td>
+                        </tr>
+                        <tr>
+                        
+                            <td class="tableSecond">Full Access</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+                <a href="conturi/index-12.html"><input type="button"  class="buyBtn" value="More Details" />
+                 </a>
+            </div>                
+
+            </div>
+            <!-- ENDING GROUP  --> 
+
+            <!-- STARTING GROUP HIGH-TIER -->
+            <div class="row groups" id="hightier">
+
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">9 Medals</div>
+                    <div class="pTitleOne">Prime</div>
+                    <h1 class="price">€119<span>.99</span></h1>
+                    <table>
+                        <tbody><tr>
+                            
+                            <td class="tableSecond topCol">3328 Hours in CS:GO</td>
+                        </tr>
+                        <tr>
+                           
+                            <td class="tableSecond">1434 Wins</td>
+                        </tr>
+                        <tr>
+                            
+                            <td class="tableSecond">Full Access</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+                <a href="conturi/index-18.html"><input type="button"  class="buyBtn" value="More Details" />
+                 </a>
+            </div>                                
+
+            </div>
+            <!-- ENDING GROUP  -->
+
+            <!-- STARTING GROUP MARKETPLACE -->
+            <div class="row groups" id="marketplace">
+
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">Sell an Account / Items</div>
+                    <div class="pTitleOne">Listed for 40 days</div>
+                    <h1 class="price">€2<span>.00</span></h1>
+                    <table>
+                        <tbody><tr>
+                           
+                            <td class="tableSecond topCol">Free Middleman</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+                <!--<a href="conturi/index-2.html"><input type="button"  class="buyBtn" value="More Details" />
+                 </a>-->  
+            </div>
+                <!-- ENDING PRODUCT -->                
+    
+                <!-- STARTING PRODUCT -->
+                <div class="cards">
+                    <img src="logo.png" class="img">
+                    <div class="pTitleTwo">Flip Knife Boreal Forest</div>
+                    <div class="pTitleOne">Stattrack | Field-Tested</div>
+                    <h1 class="price">€79<span>.99</span></h1>
+                    <table>
+                        <tbody><tr>
+                            
+                            <td class="tableSecond topCol">Instant Tradeable</td>
+                        </tr>
+                    </tbody></table>
+                <br>
+                <!--<a href="conturi/index-3.html"><input type="button"  class="buyBtn" value="More Details" />
+                 </a>-->  
+            </div>
+                <!-- ENDING PRODUCT -->                   
+
+            </div>
+            <!-- ENDING GROUP  -->                 
+            
+    
+    
+        </section>
+    </div>
+    
+    
+    
+    
+    <!-- FAQS  -->
+    
+    
+    
+        <div class="sectionSixWrapper" id="faqs">
+            <br>
+            <section class="sectionSix">
+                <div class="title">Frequently Asked Questions </div>
+                <div class="sub-title"> Answer to your questions </div>
+                <div class="accordionCont">
+                    <button class="accordion">What payments do you accept?</button>
+                    <div class="panel">
+                        <p> PayPal / Crypto / PSF / Revolut / Card / Skrill / Bank Transfer / Stripe
+                        </p>
+                    </div>
+                    <button class="accordion">How can I boost my trustfactor?</button>
+                    <div class="panel">
+                        <p> I personally recommend you to try out csgo commends in the first place, that's the cheapest and the easiest way to increase it. If you got Yellow trust 250-300 commends are recommended and if you have RED I'd say 700 would be enough to fix it. CS:GO Levels also increase your trustfactor because you play, you get xp and you won't get any report. Don't buy Skins, Steam related stuff because it won't help. Also after commendbotting and buying CS:GO Levels I recommend to leave your account on hourboosting.
+                        </p>
+                    </div>
+                    <button class="accordion">Are You Legit?</button>
+                    <div class="panel">
+                        <p>
+                            Yes, you can see our rep here https://realboost.me/discord
+                        </p>
+                    </div>
+                    <button class="accordion">Where Do I Go To Ask More Questions?</button>
+                    <div class="panel">
+                        <p> 
+                            Join on our discord and open a ticket https://realboost.me/discord
+                        </p>
+                    </div>
+    
+    
+                </div>
+            </section>
+        </div>
+        
+    
+    
+    
+    
+    <!--FOOTER-->
+    
+        <footer class="site-footer" id="contact">
+            <div class="container">
+            <div class="row">
+                <div class="col1">
+    
+                    <p class="text-footer">
+                        Still have more questions?
+                        Don't hesitate to contact us. 
+                    </p>
+                </div>
+    
+                <div class="col3">
+                    <a class="link" href="https://realboost.me/discord" target="_blank">
+                            <i class="bx bxl-discord-alt"></i>
+                    </a>
+    
+                    <!--<a class="link" href="https://t.me/hitboxpriority" target="_blank">
+                            <i class="bx bxl-telegram"></i>
+                    </a>-->
+                </div>
+            </div>
+            </div>
+    
+            <div class="container">
+            <div class="row1">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">
+                    <br>
+                    <br>
+                    Copyright © RealBoost - All Rights Reserved
+                </p>
+                </div>
+            </div>
+            </div>
+        </footer>
+        
+        
+    
+    
+    
+        <!-- AOS -->
+        <script src="https://realboost.me/js/aos.js"></script>
+    
+        <script>
+            AOS.init();
+        </script>
+    
+        <!--PRICING-SCRIPT-->
+    
+        <script>
+            $(document).ready(function () {
+                $('.groups').hide();
+                $('.filterBtns').removeClass('sBtnOne');
+                $('.filterBtns').addClass('sBtnTwo');
+    
+                $('.filterBtns').click(function () {
+                    let target = $(this).attr('data-target');
+                    $('.groups').hide();
+                    $(target).show();
+                    $('.filterBtns').removeClass('sBtnOne');
+                    $('.filterBtns').addClass('sBtnTwo');
+                    $(this).removeClass('sBtnTwo');
+                    $(this).addClass('sBtnOne');
+                });
+    
+                $('.filterBtns').first().click();
+            });
+        </script>
+    
+        <!--FAQS-SCRIPT-->
+    
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+    
+    
+    
+    
+    <!--Owned by mata--></body></html>
